@@ -150,7 +150,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e976e9f9141ca214f9b461c0b6288f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _season: 0
+  _state: 0
+  _day: 3
   ship: {fileID: 1686997084}
+  name1: KID
+  name2: "50\u5927\u5927"
+  name3: "\u4EAE\u4EAE\u5927\u5927"
+  names:
+  - 
+  - 
+  - 
+  weights:
+  - 0
+  - 0
+  - 0
+  scores: 0a00000014000000320000005a000000
+  mission: 010000
+  A: 99
+  B: 63000000
 --- !u!4 &540993384
 Transform:
   m_ObjectHideFlags: 0
@@ -447,3 +465,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+  lv: 3
