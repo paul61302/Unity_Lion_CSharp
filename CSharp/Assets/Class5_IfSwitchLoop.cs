@@ -51,7 +51,7 @@ public class Class5_IfSwitchLoop : MonoBehaviour
 
     private void Awake()
     {
-        #region
+        #region 迴圈
         // 使用 for 迴圈取得陣列資料
         for (int i = 0; i < scores.Length; i++)
         {
@@ -93,7 +93,7 @@ public class Class5_IfSwitchLoop : MonoBehaviour
         {
             print("for 迴圈第：" + k + "次");
         }
-        #endregion
+        
 
         /*
         for (int i = 0; i < 101; i++)
@@ -137,6 +137,8 @@ public class Class5_IfSwitchLoop : MonoBehaviour
     Test:
         // 標記陳述式
         print("這是標記陳述式");
+
+        #endregion
 
     }
 
@@ -216,7 +218,7 @@ public class Class5_IfSwitchLoop : MonoBehaviour
         }
 
 
-
+        #region IF判斷式
         // 當 openDoor 為 true 執行 {開門}
         // 當 openDoor 為 false 執行 {關門}
         // if (openDoor == true)
@@ -265,5 +267,6 @@ public class Class5_IfSwitchLoop : MonoBehaviour
         {
             print("危險");
         }
+        #endregion
     }
 }
