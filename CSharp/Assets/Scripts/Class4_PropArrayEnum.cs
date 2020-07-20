@@ -65,9 +65,9 @@ public class Class4_PropArrayEnum : MonoBehaviour
         // 取得屬性
         print("船的長度：" + ship.lenght);
 
-        // 設定唯獨屬性
+        // 設定唯讀屬性
         // ship.width = 20.5f; // 錯誤
-        // 取得唯獨屬性
+        // 取得唯讀屬性
         print("船的寬度：" + ship.width);
 
         ship.atk = 50.3f;

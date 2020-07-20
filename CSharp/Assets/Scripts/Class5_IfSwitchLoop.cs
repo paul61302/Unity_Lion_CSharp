@@ -93,7 +93,7 @@ public class Class5_IfSwitchLoop : MonoBehaviour
         {
             print("for 迴圈第：" + k + "次");
         }
-        
+
 
         /*
         for (int i = 0; i < 101; i++)
@@ -109,7 +109,7 @@ public class Class5_IfSwitchLoop : MonoBehaviour
         /*
         for (int i = 0; i < 101; i++)
         {
-            print("break 迴圈：" + i);
+            print("return 迴圈：" + i);
 
             // 如果 i 等於 10 就跳出方法外，下方的程式皆不執行
             if (i == 10) return;
